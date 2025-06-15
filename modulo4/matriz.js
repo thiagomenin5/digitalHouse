@@ -16,3 +16,15 @@ console.table(arrayMatriz);
 
 //acceder a un elemento especifico de una matriz
 console.log(matriz[1][1]) //deberia salir 5
+
+//recorrer una matriz mediante una columna
+
+for (let i = 0; i < matriz.length; i++) {
+    console.log(matriz[i][0]);
+}
+
+//recorrer una fila especifica
+for (let i = 0; i < matriz[0].length; i++) {
+    console.log(matriz[i][0]);
+    
+}
