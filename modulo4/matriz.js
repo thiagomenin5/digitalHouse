@@ -24,7 +24,6 @@ for (let i = 0; i < matriz.length; i++) {
 }
 
 //recorrer una fila especifica
-for (let i = 0; i < matriz[0].length; i++) {
-    console.log(matriz[i][0]);
-    
+for (let j = 0; j < matriz[0].length; j++) {
+    console.log(matriz[0][j]);
 }
